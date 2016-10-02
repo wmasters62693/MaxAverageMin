@@ -1,0 +1,19 @@
+Number = 0
+Maxnum = 0
+Minnum = 0
+Totalnum = 0
+Numofnum = 0
+
+do
+Number = input (&quot;please enter a number&quot;) between 1000000 and -1000000&quot;)
+If number &gt; Maxnum:
+Maxnum = number
+Else if number &lt; minnum:
+Minnum = number
+Totalnum += number
+Numofnum += 1
+
+Continue = input (&quot;do you want to continue adding numbers?&quot;)
+While continue == &quot;yes&quot;:
+
+Print (&quot;The smallest number was &quot; + minnum + &quot;. The average of all the numbers was &quot; + Totalnum ÷ numofnum + &quot;. And the biggest number was &quot; + Maxnum)
